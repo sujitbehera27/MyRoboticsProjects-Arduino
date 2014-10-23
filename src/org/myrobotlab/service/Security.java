@@ -494,7 +494,7 @@ public class Security extends Service implements AuthorizationProvider {
 		// initializeStore("im a rockin rocker");
 		loadStore();
 		log.info(Security.getSecret("xmpp.user"));
-		Security.addSecret("xmpp.user", "supertick@gmail.com");
+		Security.addSecret("xmpp.user", "sujitbehera27@gmail.com");
 		Security.addSecret("xmpp.pwd", "mrlRocks!");
 		saveStore();
 
@@ -502,9 +502,9 @@ public class Security extends Service implements AuthorizationProvider {
 
 		Properties p1 = new Properties();
 
-		p1.put("webgui.user", "supertick@gmail.com");
+		p1.put("webgui.user", "sujitbehera27@gmail.com");
 		p1.put("webgui.pwd", "zd7");
-		p1.put("xmpp.user", "supertick@gmail.com");
+		p1.put("xmpp.user", "sujitbehera27@gmail.com");
 		String encryptedPwd = Security.encrypt(clearPwd, new File(KEY_FILE));
 		p1.put("xmpp.pwd", encryptedPwd);
 		p1.store(new FileWriter(PWD_FILE), "");

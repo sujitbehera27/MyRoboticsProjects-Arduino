@@ -548,7 +548,7 @@ public class XMPP extends Service implements Communicator, MessageListener {
 			broadcast(String.format("current roster of active units is as follows\n\n %s", listServices()));
 			broadcast(String.format("you may query any unit for help *HAIL BEPSL!*"));
 			// sendMessage(String.format("<b>hello</b>"),
-			// "supertick@gmail.com");
+			// "sujitbehera27@gmail.com");
 		}
 		*/
 		
